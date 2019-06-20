@@ -1,4 +1,4 @@
-Shell, I/O Redirections and filters
+0x02. Shell, I/O Redirections and filters
 
 
 0. Script that prints Hello, World, followed by a new line to the standard output.
@@ -8,7 +8,7 @@ Shell, I/O Redirections and filters
 4. Display the last 10 lines of /etc/passwd.
 5. Display the first 10 lines of /etc/passwd.
 6. Script that displays the third line of the file iacta.
-7. Script that creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line.
+7. Script that creates a file named exactly \\\*\\\\\'\"Holberton School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) containing the text Holberton School ending by a new line.
 8. Script that writes into the file ls_cwd_content the result of the command ls la.
 9. Script that duplicates the last line of the file iacta.
 10. Script that deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
@@ -24,3 +24,7 @@ Shell, I/O Redirections and filters
 20. Script that removes all letters c and C from input.
 21. Script that reverse its input.
 22. Script that displays all users and their home directories, sorted by users.
+
+
+- Command that finds all empty files and directories in the current directory and all sub-directories. Only the names of the files and directories should be displayed (not the entire path). Hidden files should be listed. One file name per line. The listing should end with a new line.
+- Script that decodes acrostics that use the first letter of each line. The ‘decoded’ message has to end with a new line.
