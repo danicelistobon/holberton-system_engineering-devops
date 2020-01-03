@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Find out whats keeping your Ubuntu containers Nginx installation
+ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+service nginx restart
